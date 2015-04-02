@@ -1,0 +1,182 @@
+﻿@import url("https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/ui-lightness/jquery-ui.css");
+
+.body {
+    background-color: #fff;
+}
+
+#jamBoardTabs {
+    position: absolute;
+
+}
+#jamBoardTabs .ui-tabs-panel {
+    padding: 0;
+}
+#myBoards,
+#boardView {
+    border: 1px solid #ccc;
+    height: 584px;
+    overflow: auto;
+}
+#myBoards {
+    width: 754px;
+    list-style-type: none;
+}
+#boardView {
+    width: 783px;
+}
+.board {
+    box-shadow: 0 2px 3px rgba(0,10,10,0.38);
+    -moz-box-shadow: 0 2px 3px rgba(0,10,10,0.38);
+    -webkit-box-shadow: 0 2px 3px rgba(0,10,10,0.38);
+}
+#myBoards li {
+    float: left;
+    font-size: 4em;
+    height: 182px;
+    margin: 5px 0 0 12px;
+    text-align: center;
+    width: 234px;
+}
+#myBoards #config-board-btn,
+#myBoards #config-board {
+    position: absolute;
+    top: 6px;
+    right: 5px;
+}
+#myBoards #config-board-menu {
+    display: none;
+}
+
+#myBoards .pins {
+    height: 128px;
+}
+#myBoards .board-cover,
+.board-title {
+    float: left;
+    font-size: 20px;
+
+    margin: 6px 0;
+    width: 222px;
+}
+.board-title {
+    float: none;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+.pin-count {
+    font-size: 10px;
+    text-align: center;
+}
+#myBoards .board-cover {
+    height: 59px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 1px;
+    overflow: hidden;
+    position: relative;
+}
+#myBoards .thumbs {
+    display: block;
+    width: 232px;
+    border: 1px solid #ccc;
+}
+#myBoards .thumbs .empty{
+    float: left;
+    width: 55px;
+    height: 55px;
+    margin: 0 1px 0 0;
+    border: 1px solid #ccc;
+}
+
+#myBoardsLink {
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    background-position: 0 -64px;
+}
+#myBoards .ui-icon-trash {
+    cursor: pointer;
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+#defaultBoard,
+#defaultBoard .delete-board {
+    display: none;
+}
+
+
+.thumbImage {
+
+}
+
+.thumbImg {
+
+
+}
+
+.thumbIFrame {
+    overflow: hidden;
+    width : 55px;
+    height: 55px;
+}
+
+#boardView {
+    display: none;
+}
+
+.PinnedItem {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 202px;
+    min-height: 200px;
+}
+
+.PinIFrame {
+    overflow: hidden;
+    width : 192px;
+    height: 192px;
+    border: 1px solid #ccc;
+}
+
+#configBoard-menu {
+    display: none;
+}
+
+.pin {
+    border: 1px solid #ccc;
+    float: left;
+    font-size: 10px;
+    min-height: 100px;
+    margin: 5px;
+    padding: 1px;
+    text-align: center;
+    width: 222px;
+}
+
+#dialogPinMe label,
+#dialog label, #dialog input {
+    display: block;
+}
+#dialogPinMe label,
+#dialog label {
+    margin-top: 0.5em;
+}
+
+#dialog input, #dialog textarea {
+    width: 95%;
+}
+
+#tabs {
+    margin-top: 1em;
+}
+
+#add_tab {
+    cursor: pointer;
+}
